@@ -32,6 +32,7 @@ Esse projeto nasceu como um exercício prático para treinar:
 1. Abra o jogo no navegador (localmente ou pelo link do GitHub Pages quando estiver publicado).
 2. Clique nos mosquitos o mais rápido possível.
 3. Se deixar passar… você perde vidas/tempo (dependendo da regra do jogo).
+4. link do jogo no github Pages: https://solidusjack.github.io/Mata_moscas_Game/pagina_inicial.html
 
 ---
 
