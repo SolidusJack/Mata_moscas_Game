@@ -1,0 +1,55 @@
+/*Transforma o cursor em forma de imagem*/
+html{
+    cursor: url(imagens/mata_mosca.png) 30 30, auto;
+}
+/*Transforma o background da pagina*/
+body{
+    background-image: url(imagens/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+/*Diferença de tamanho das moscas, 3 tipos diferentes.*/
+.mosca1{
+    width: 50px;
+    height: 50px;
+}
+
+.mosca2{
+    width: 70px;
+    height: 70px;
+}
+
+.mosca3{
+    width: 90px;
+    height: 90px;
+}
+
+/*Define o lado que a mosca aparecera olhando.*/
+.ladoA{
+    transform:  scaleX(1);
+}
+
+.ladoB{
+     transform:  scaleX(-1);
+}
+
+/*Painel de vida e cronometro*/
+.painel{
+    position: absolute;
+    width: 190px;
+    padding: 10px;
+    bottom: 0px;
+    border-top: solid 1px #fff;
+    background-color: #fff;
+    opacity: 0.7;
+}
+
+.vidas{
+    float: left;
+}
+
+.cronometro{
+    font-size: 20px;
+    float: left;
+    font-weight: bold;
+}
